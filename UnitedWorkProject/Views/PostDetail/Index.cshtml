@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model PostModel
+    <section class="banner-bottom">
+        <!--/blog-->
+        <div class="container">
+            <div class="row">
+                <!--left-->
+                <div class="col-lg-12 left-blog-info-w3layouts-agileits text-left">
+                    <div class="blog-grid-top">
+                        <div class="b-grid-top">
+                            <div class="blog_info_left_grid">
+                                <a href="single.html">
+                                    <img src=@Model.postImgUrl class="img-fluid" alt="">
+                                </a>
+                            </div>
+                           
+                        </div>
+
+                        <h3>
+                            <a href="single.html">@Model.postTitle </a>
+                        </h3>
+                        <p>
+                            @Model.postDescription
+                        </p>
+                        
+                    </div>
+
+                    <div class="comment-top">
+                        <h4>Yorumlar</h4>
+                        <div class="media">
+                            <div class="media-body">
+                                <h5 class="mt-0">Joseph Goh</h5>
+                                <p>
+                                    Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros.
+                                    Cras a ornare elit.
+                                </p>
+
+                                <div class="media mt-3">
+                                    <a class="d-flex pr-3" href="#">
+                                        <img src="images/t2.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Richard Spark</h5>
+                                        <p>
+                                            Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros.
+                                            Cras a ornare elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-top">
+                        <h4>Yorum Yap</h4>
+                        <div class="comment-bottom">
+                            <form action="#" method="post">
+                                <input class="form-control" type="text" name="Name" placeholder="Adınız" >
+                                <input class="form-control" type="email" name="Email" placeholder="E-mail" >
+                                <textarea class="form-control" name="Message" placeholder="Mesajınız..." ></textarea>
+                                <button type="submit" class="btn btn-primary submit">Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+-
+            </div>
+        </div>
+    </section>
+
+

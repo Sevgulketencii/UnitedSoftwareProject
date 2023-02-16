@@ -436,3 +436,6 @@ C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\bin\D
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Login\SignUp.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Login\SignIn.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\About\About.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\PostDetail\Index.cshtml.g.cs

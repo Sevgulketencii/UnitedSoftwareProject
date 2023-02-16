@@ -9,5 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface AboutServices:IGenericServices<About>
     {
+        About Status();
     }
 }

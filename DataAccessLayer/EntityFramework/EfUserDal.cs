@@ -17,5 +17,10 @@ namespace DataAccessLayer.EntityFramework
         {
             return baglan.UserDbSet.FirstOrDefault(x=>x.UserName==p.UserName && x.Password==p.Password);
         }
+
+        public Users whoUser(string name)
+        {
+            return baglan.UserDbSet.FirstOrDefault(x => x.UserName == name);
+        }
     }
 }

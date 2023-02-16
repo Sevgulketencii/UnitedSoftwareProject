@@ -31,8 +31,8 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("AboutImgUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AboutStatus")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("AboutStatus")
+                        .HasColumnType("bit");
 
                     b.Property<string>("AboutTittle")
                         .HasColumnType("nvarchar(max)");

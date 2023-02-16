@@ -10,5 +10,6 @@ namespace BusinessLayer.Abstract
     public interface UsersServices:IGenericServices<Users>
     {
         Users Login(Users p);
+        Users WhoUser(string name);
     }
 }

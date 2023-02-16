@@ -47,5 +47,10 @@ namespace BusinessLayer.Concrete
         {
             _user.update(p);
         }
+
+        public Users WhoUser(string name)
+        {
+            return _user.whoUser(name);
+        }
     }
 }
