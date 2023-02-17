@@ -9,7 +9,7 @@ namespace PostApi.DataAccessLayer
     public class Dbcontext:DbContext
     {
         public DbSet<Post> PostDbSet { get; set; }
-        public DbSet<FoodPost> CommentDbSet { get; set; }
+        public DbSet<FoodPost> FoodPostDbSet { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-KCH0A99;database=PostApi;integrated security=true");

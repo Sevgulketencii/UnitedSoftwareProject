@@ -10,8 +10,8 @@ using PostApi.DataAccessLayer;
 namespace PostApi.Migrations
 {
     [DbContext(typeof(Dbcontext))]
-    [Migration("20230216204114_mig_1")]
-    partial class mig_1
+    [Migration("20230217162347_mig_7")]
+    partial class mig_7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,14 +37,17 @@ namespace PostApi.Migrations
                     b.Property<DateTime>("FPosttDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("postId")
+                    b.Property<string>("FoodPostTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Postid")
                         .HasColumnType("int");
 
                     b.HasKey("FoodPostId");
 
-                    b.HasIndex("postId");
+                    b.HasIndex("Postid");
 
-                    b.ToTable("CommentDbSet");
+                    b.ToTable("FoodPostDbSet");
                 });
 
             modelBuilder.Entity("PostApi.DataAccessLayer.Post", b =>
@@ -81,7 +84,9 @@ namespace PostApi.Migrations
                 {
                     b.HasOne("PostApi.DataAccessLayer.Post", "Post")
                         .WithMany("FPost")
-                        .HasForeignKey("postId");
+                        .HasForeignKey("Postid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Post");
                 });

@@ -7,7 +7,7 @@
 
     <section class="main-content-w3layouts-agileits">
         <div class="container">
-            <h3 class="tittle">Blog Posts</h3>
+            <h3 class="tittle">Notlarım</h3>
             <div class="inner-sec">
                 <!--left-->
                 <div class="left-blog-info-w3layouts-agileits text-left">
@@ -15,7 +15,7 @@
                         @foreach (var item in Model)
                         {
                         <div class="col-lg-4 card">
-                            <a href="single.html">
+                            <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId>
                                 <img src=@item.postImgUrl class="card-img-top img-fluid" alt="">
                             </a>
                             <div class="card-body">
@@ -29,10 +29,10 @@
 
                                 </ul>
                                 <h5 class="card-title">
-                                    <a href="single.html">@item.postTitle</a>
+                                    <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId>@item.postTitle</a>
                                 </h5>
                                 <p class="card-text mb-3">@item.postDescription </p>
-                                <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId class="btn btn-primary read-m">İncele</a>
+                                <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId class="btn btn-primary read-m">Notları İncele</a>
                             </div> 
                         </div>
                         }
@@ -40,7 +40,7 @@
                         
                         
                     </div><br /><br /><br />
-                    <a href="#" class="btn btn-info" style="margin-left:500px">+ Ana Post Ekle</a>
+                    <a asp-controller="Home" asp-action="PostAdd" class="btn btn-info" style="margin-left:500px">+ Ana Post Ekle</a>
                     <!--//left-->
                 </div>
             </div>

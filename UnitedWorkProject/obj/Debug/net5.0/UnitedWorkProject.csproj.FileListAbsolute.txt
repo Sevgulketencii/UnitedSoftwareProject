@@ -439,3 +439,7 @@ C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\D
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\About\About.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\PostDetail\Index.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Home\PostAdd.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_FoodPost\Default.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_FoodPostAdd\Default.cshtml.g.cs
+C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\PostDetail\FPostUpdate.cshtml.g.cs

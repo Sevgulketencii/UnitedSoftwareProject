@@ -2,7 +2,7 @@
 
 namespace PostApi.Migrations
 {
-    public partial class mig_1 : Migration
+    public partial class mig_7 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -10,9 +10,11 @@ namespace PostApi.DataAccessLayer
     {
         [Key]
         public int FoodPostId { get; set; }
+        public string FoodPostTitle { get; set; }
         public string FPostDescription{ get; set; }
         public DateTime FPosttDate{ get; set; }
         public bool FPostStatus{ get; set; }
+        public int Postid { get; set; }
         public Post Post { get; set; }
     }
 }

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PostApi.DataAccessLayer;
 
 namespace PostApi.Migrations
 {
     [DbContext(typeof(Dbcontext))]
-    partial class DbcontextModelSnapshot : ModelSnapshot
+    [Migration("20230217145206_mig_4")]
+    partial class mig_4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,15 +37,12 @@ namespace PostApi.Migrations
                     b.Property<DateTime>("FPosttDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("FoodPostTitle")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Postid")
+                    b.Property<int?>("postId")
                         .HasColumnType("int");
 
                     b.HasKey("FoodPostId");
 
-                    b.HasIndex("Postid");
+                    b.HasIndex("postId");
 
                     b.ToTable("FoodPostDbSet");
                 });
@@ -82,9 +81,7 @@ namespace PostApi.Migrations
                 {
                     b.HasOne("PostApi.DataAccessLayer.Post", "Post")
                         .WithMany("FPost")
-                        .HasForeignKey("Postid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("postId");
 
                     b.Navigation("Post");
                 });

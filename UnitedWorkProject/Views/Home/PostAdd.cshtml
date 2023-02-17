@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "PostAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model PostModel
+<form asp-controller="Home" asp-action="PostAdd" method="post">
+
+    <input type="text" name="postTitle" class="form-control" placeholder="Başlık" style="margin-block-start:50px" />
+    <span asp-validation-for=@Model.postTitle class="text-danger"></span><br /><br />
+
+    <input type="text" name="postDescription" class="form-control" placeholder="Açıklama" />
+    <span asp-validation-for=@Model.postDescription class="text-danger"></span><br /><br />
+
+    <input type="text" name="postImgUrl" class="form-control" placeholder="Img Url" />
+    <small>*Resim url'i oluşturmak için internet üzerinden resim yükle yazıp çıkan sitelerden herhangi birine eklemek istediğiniz resimi yüklemeniz ve hizmet sağlayıcının size dönüceği url'i buraya yazmanız gerekmektedir.</small>
+
+    <span asp-validation-for=@Model.postImgUrl class="text-danger"></span><br /><br /><br />
+    <button action="submit" class="btn btn-success btn-lg " style="margin-block-end:50px">Ekle</button>
+</form>
