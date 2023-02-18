@@ -371,7 +371,6 @@ C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\D
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\UnitedWorkProject.TagHelpers.output.cache
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\UnitedWorkProject.RazorCoreGenerate.cache
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -442,4 +441,3 @@ C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\D
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Home\PostAdd.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_FoodPost\Default.cshtml.g.cs
 C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_FoodPostAdd\Default.cshtml.g.cs
-C:\Users\Sevgül KETENCİ\Source\Repos\UnitedWorkProject\UnitedWorkProject\obj\Debug\net5.0\Razor\Views\PostDetail\FPostUpdate.cshtml.g.cs

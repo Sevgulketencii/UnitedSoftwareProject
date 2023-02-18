@@ -4,7 +4,7 @@
     <h4>Not Ekle</h4>
     <div class="comment-bottom">
         <form asp-controller="PostDetail" asp-action="FPostAdd" method="post">
-                
+            <input type="hidden" name="Postid" value=@ViewBag.pId />
             <input class="form-control" type="text" name="FoodPostTitle" placeholder="Not Başlık">
             <textarea class="form-control" name="FPostDescription" rows="10" cols="5" placeholder="Notunuz..."></textarea><br />
             <button type="submit" class="btn btn-primary submit">Notu Ekle</button>

@@ -17,6 +17,7 @@
                         <div class="col-lg-4 card">
                             <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId>
                                 <img src=@item.postImgUrl class="card-img-top img-fluid" alt="">
+                                <a asp-controller="Home" asp-action="PostRemove" asp-route-id=@item.postId  class="btn btn-danger btn-sm">SİL</a>
                             </a>
                             <div class="card-body">
                                 <ul class="blog-icons my-4">
@@ -33,6 +34,7 @@
                                 </h5>
                                 <p class="card-text mb-3">@item.postDescription </p>
                                 <a asp-controller="PostDetail" asp-action="Index" asp-route-id=@item.postId class="btn btn-primary read-m">Notları İncele</a>
+                                
                             </div> 
                         </div>
                         }

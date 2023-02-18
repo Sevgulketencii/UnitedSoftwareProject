@@ -61,6 +61,20 @@ namespace UnitedWorkProject.Controllers
             }
             return View(p);
         }
+
+        public async Task<IActionResult> PostRemove(int id)
+        {
+            HttpClient client = new HttpClient();
+            var responce = await client.DeleteAsync("https://localhost:44308/api/Post/" + id);
+            if (responce.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            return View();
+        }
+
+
+
     }
 }
 
