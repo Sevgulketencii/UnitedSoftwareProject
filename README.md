@@ -18,13 +18,17 @@ Proje N katmanlı mimari ile oluşturulmuştur. 5 katman bulunmaktadır bu katma
 Client siteye istek attığında oluşturulan kural ile kullanıcının kimliğini doğrulaması istenmektedir. Kullanıcı url üzerinden veya başka bir yol ile site içeriğine ulaşamamaktadır.
 Kimliği doğrulanmış kullanıcıya ait Post ve FoodPost'lar responce edilmektedir.
 
-![9s](https://user-images.githubusercontent.com/114435614/219852786-3d2763c8-2320-4616-b1a4-75706fb368bf.png)
-![10s](https://user-images.githubusercontent.com/114435614/219852788-9960220b-1513-4bc8-a0ca-d8ac84dd8039.png)
-![1s](https://user-images.githubusercontent.com/114435614/219852792-5955ae58-fd4a-4fb6-9c7e-8a8c574363fb.png)
-![2s](https://user-images.githubusercontent.com/114435614/219852809-9d1582de-3790-46e5-a4e0-cd26ab5a70be.png)
-![3s](https://user-images.githubusercontent.com/114435614/219852811-ff0e65aa-fab3-4b72-9115-aa8743bf579b.png)
-![4s](https://user-images.githubusercontent.com/114435614/219852812-aa186a01-183e-4ded-b0a4-0312996f7d50.png)
-![5s](https://user-images.githubusercontent.com/114435614/219852815-af38f982-f3ae-4dcb-98ed-64012a75ce2d.png)
-![6ss](https://user-images.githubusercontent.com/114435614/219852818-0540e0ae-b767-4396-b1fb-245182f0d35d.png)
-![7s](https://user-images.githubusercontent.com/114435614/219852819-c947f48d-00f6-4386-b333-83a72ab71831.png)
-![8s](https://user-images.githubusercontent.com/114435614/219852820-c202df12-b318-4c1f-a2e4-316b4d4006c8.png)
+
+![1a](https://user-images.githubusercontent.com/1144![6a](https://user-images.githubusercontent.com/114435614/220462190-ea9dfbb9-dbeb-4390-97c8-fae8d30e2879.png)
+35614/220462160-6e377227-4004-4f69-90f7-e409a058cabb.jpg)
+![1a](https://user-images.githubusercontent.com/114435614/220462172-972d34c0-5f9e-4999-9345-8354ce106827.png)
+![2a](https://user-images.githubusercontent.com/114435614/220462174-f57c28f9-e730-4aa8-acf4-0ae6f3e1e476.png)
+![3a](https://user-images.githubusercontent.com/114435614/220462176-085c4327-6e02-465a-b565-b20add291b3e.png)
+![4a](https://user-images.githubusercontent.com/114435614/220462180-6cd34a2c-91d2-4357-a162-d6dd90ef498c.png)
+![5a](https://user-images.githubusercontent.com/114435614/220462183-5be8ef79-7942-4a07-9490-5e0dfa55a7a4.png)
+![7a](https://user-images.githubusercontent.com/114435614/220462196-9bf812a1-919d-4ecc-b444-d752322de209.png)
+![8a](https://user-images.githubusercontent.com/114435614/220462203-adf9943d-2345-4acb-a8d4-daf1afb29edd.png)
+![9a](https://user-images.githubusercontent.com/114435614/220462206-5c8b4cad-f411-4923-a250-77b855e725a9.png)
+![10a](https://user-images.githubusercontent.com/114435614/220462242-80ed893d-3d43-4e52-8cd6-bdc195f906eb.png)
+![11a](https://user-images.githubusercontent.com/114435614/220462247-6a72851e-a254-4edd-a2ae-b27af72c99bf.png)
+![12a](https://user-images.githubusercontent.com/114435614/220462257-5b0fe99e-ebf6-42f5-bfa1-68e576ac7c99.png)
