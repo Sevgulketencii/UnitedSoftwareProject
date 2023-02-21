@@ -12,6 +12,7 @@ namespace UnitedWorkProject.Models
         public string FPostDescription { get; set; }
         public DateTime FPosttDate { get; set; }
         public bool FPostStatus { get; set; }
+        public int Fpostid { get; set; }
         public int Postid { get; set; }
     }
 }

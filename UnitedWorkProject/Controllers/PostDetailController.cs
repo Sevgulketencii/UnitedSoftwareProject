@@ -14,21 +14,20 @@ namespace UnitedWorkProject.Controllers
     [Authorize]
     public class PostDetailController : Controller
     {
-        int blogId;
+        
         public async Task<IActionResult> Index(int id)
         {
-            blogId = id;
             HttpClient client = new HttpClient();
-            var response = await client.GetAsync("https://localhost:44308/api/Post/" + id);
+            var responce = await client.GetAsync("https://localhost:44308/api/FoodPost");
+            var Json = await responce.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<FoodPostModel>>(Json);
+            ViewBag.ıd = id;
+            var list = values.Where(x => x.Postid == id ).Take(1).ToList();
+            return View(list);
           
-                var Json = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<PostModel>(Json);
-                ViewBag.id = id;
-                ViewBag.pId = id;
-                
-            return View(values);
         }
 
+        
 
         [HttpPost]
         public async Task<IActionResult> FPostAdd(FoodPostModel p)

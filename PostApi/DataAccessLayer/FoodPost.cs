@@ -15,6 +15,7 @@ namespace PostApi.DataAccessLayer
         public DateTime FPosttDate{ get; set; }
         public bool FPostStatus{ get; set; }
         public int Postid { get; set; }
+        public int Fpostid { get; set; }
         public Post Post { get; set; }
     }
 }

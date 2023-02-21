@@ -14,14 +14,14 @@ namespace UnitedWorkProject.ViewComponents.PostDetail
     public class _FoodPost: ViewComponent
     {
         
-        public async Task<IViewComponentResult> InvokeAsync()
+        public async Task<IViewComponentResult> InvokeAsync(int id)
         {
             HttpClient client = new HttpClient();
             var responce = await client.GetAsync("https://localhost:44308/api/FoodPost");
             var Json = await responce.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<FoodPostModel>>(Json);
 
-            var list = values.Where(x => x.Postid == ViewBag.id).ToList();
+            var list = values.Where(x => x.Postid == ViewBag.id && x.Fpostid==1).ToList();
             return View(list);
         }
     }
