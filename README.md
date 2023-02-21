@@ -19,7 +19,7 @@ Client siteye istek attığında oluşturulan kural ile kullanıcının kimliği
 Kimliği doğrulanmış kullanıcıya ait Post ve FoodPost'lar responce edilmektedir.
 
 
-![1b](https://user-images.githubusercontent.com/114435614/220462630-df7fccb8-0fca-4f11-88cb-608bfc88a375.png)
+![1c](https://user-images.githubusercontent.com/114435614/220468155-fdfe2844-f57c-4eb1-b538-1bdab89c7165.png)
 ![1a](https://user-images.githubusercontent.com/114435614/220462172-972d34c0-5f9e-4999-9345-8354ce106827.png)
 ![2a](https://user-images.githubusercontent.com/114435614/220462174-f57c28f9-e730-4aa8-acf4-0ae6f3e1e476.png)
 ![3a](https://user-images.githubusercontent.com/114435614/220462176-085c4327-6e02-465a-b565-b20add291b3e.png)
