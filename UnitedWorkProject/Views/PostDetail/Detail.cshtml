@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<FoodPostModel>
+
+<div class="comment-top">
+    <h4>Notlar</h4>
+    <table class="table table-hover">
+
+        <tbody>
+            @{
+                if (ViewBag.count == 0)
+                {
+                    @:Alt not Mevcut değil
+                }
+            }
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><strong>@item.FoodPostTitle</strong></td>
+                    <td>@item.FPostDescription</td>
+                    <td><a asp-controller="PostDetail" asp-action="FPostRemove" asp-route-id=@item.FoodPostId class="btn btn-danger btn-sm ">Sil</a></td>
+
+                    <td><a asp-controller="PostDetail" asp-action="Detail" asp-route-id=@item.FoodPostId class="btn btn-warning btn-sm ">Alt Notu Gör</a></td>
+
+                    <td><a asp-controller="FPostAdd" asp-action="Index" asp-route-id=@item.FoodPostId class="btn btn-success btn-sm ">Not Ekle</a></td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>
+

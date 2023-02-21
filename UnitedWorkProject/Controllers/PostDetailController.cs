@@ -22,12 +22,28 @@ namespace UnitedWorkProject.Controllers
             var Json = await responce.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<FoodPostModel>>(Json);
             ViewBag.ıd = id;
-            var list = values.Where(x => x.Postid == id ).Take(1).ToList();
+            ViewBag.pId = id;
+            TempData["kId"] = id;
+            var list = values.Where(x => x.Postid == id && x.Fpostid == 0 ).ToList();
             return View(list);
           
         }
 
-        
+
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            HttpClient client = new HttpClient();
+            var responce = await client.GetAsync("https://localhost:44308/api/FoodPost");
+            var Json = await responce.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<FoodPostModel>>(Json);
+            ViewBag.ıd = id;
+            var list = values.Where(x =>x.Fpostid ==id).ToList();
+            ViewBag.count = list.Count();
+            return View(list);
+
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> FPostAdd(FoodPostModel p)

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="comment-top">
+    <h4>Not Ekle</h4>
+    <div class="comment-bottom">
+        <form asp-controller="FPostAdd" asp-action="FPostAdd" method="post">
+            <input type="hidden" name="Fpostid" value=@ViewBag.pId />
+            <input type="hidden" name="Postid" value=@TempData["kId"] />
+            <input class="form-control" type="text" name="FoodPostTitle" placeholder="Not Başlık">
+            <textarea class="form-control" name="FPostDescription" rows="10" cols="5" placeholder="Notunuz..."></textarea><br />
+            <button type="submit" class="btn btn-primary submit">Notu Ekle</button>
+        </form>
+    </div>
+</div>
+
